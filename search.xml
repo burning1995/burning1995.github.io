@@ -21,10 +21,10 @@
   <entry>
     <title>关于防火墙/GFW的那些事2</title>
     <url>/2021/11/12/%E5%85%B3%E4%BA%8E%E9%98%B2%E7%81%AB%E5%A2%99-GFW%E7%9A%84%E9%82%A3%E4%BA%9B%E4%BA%8B2/</url>
-    <content><![CDATA[<h2 id="没有GFW时的网络通讯"><a href="#没有GFW时的网络通讯" class="headerlink" title="没有GFW时的网络通讯"></a>没有GFW时的网络通讯</h2><p><img  src="/images/pic/%E6%B2%A1%E6%9C%89GFW%E7%9A%84%E7%BD%91%E7%BB%9C%E9%80%9A%E8%AE%AF.png"   title="没有GFW的网络通讯"><span class="image-caption">没有GFW的网络通讯</span></p>
-<h2 id="有GFW时的网络通讯"><a href="#有GFW时的网络通讯" class="headerlink" title="有GFW时的网络通讯"></a>有GFW时的网络通讯</h2><p><img  src="/images/pic/%E6%9C%89GFW.png"   title="有GFW的网络通讯"><span class="image-caption">有GFW的网络通讯</span></p>
-<h2 id="两种翻墙原理"><a href="#两种翻墙原理" class="headerlink" title="两种翻墙原理"></a>两种翻墙原理</h2><p><img  src="/images/pic/VPN-Http%E4%BB%A3%E7%90%86%E6%A8%A1%E5%BC%8F.png"   title="VPN代理原理"><span class="image-caption">VPN代理原理</span></p>
-<p><img  src="/images/pic/shadowsocks-ssr-v2ray.png"   title="SS、SSR加密原理"><span class="image-caption">SS、SSR加密原理</span></p>
+    <content><![CDATA[<h2 id="没有GFW时的网络通讯"><a href="#没有GFW时的网络通讯" class="headerlink" title="没有GFW时的网络通讯"></a>没有GFW时的网络通讯</h2><p><img src="/images/pic/%E6%B2%A1%E6%9C%89GFW%E7%9A%84%E7%BD%91%E7%BB%9C%E9%80%9A%E8%AE%AF.png" alt="没有GFW的网络通讯" title="没有GFW的网络通讯"></p>
+<h2 id="有GFW时的网络通讯"><a href="#有GFW时的网络通讯" class="headerlink" title="有GFW时的网络通讯"></a>有GFW时的网络通讯</h2><p><img src="/images/pic/%E6%9C%89GFW.png" alt="有GFW的网络通讯" title="有GFW的网络通讯"></p>
+<h2 id="两种翻墙原理"><a href="#两种翻墙原理" class="headerlink" title="两种翻墙原理"></a>两种翻墙原理</h2><p><img src="/images/pic/VPN-Http%E4%BB%A3%E7%90%86%E6%A8%A1%E5%BC%8F.png" alt="VPN代理原理" title="VPN代理原理"></p>
+<p><img src="/images/pic/shadowsocks-ssr-v2ray.png" alt="SS、SSR加密原理" title="SS、SSR加密原理"></p>
 <p><strong><code>备注: SS就是ShadowSocks,SSR就是ShadowSocksR</code></strong></p>
 ]]></content>
       <categories>
@@ -197,7 +197,7 @@
 <h4 id="快速生成url和email链接-lt-gt"><a href="#快速生成url和email链接-lt-gt" class="headerlink" title="快速生成url和email链接 &lt;&gt;"></a>快速生成url和email链接 <code>&lt;&gt;</code></h4><figure class="highlight markdown"><table><tr><td class="code"><pre><code class="hljs markdown"><span class="xml">&lt;https://www.markdownguide.org&gt;</span><br><br><span class="xml">&lt;fake@example.com&gt;</span><br></code></pre></td></tr></table></figure>
 
 <p><a href="https://www.markdownguide.org/">https://www.markdownguide.org</a></p>
-<p><a href="mailto:&#102;&#x61;&#x6b;&#x65;&#64;&#101;&#120;&#x61;&#109;&#112;&#x6c;&#x65;&#46;&#99;&#x6f;&#x6d;">&#102;&#x61;&#x6b;&#x65;&#64;&#101;&#120;&#x61;&#109;&#112;&#x6c;&#x65;&#46;&#99;&#x6f;&#x6d;</a></p>
+<p><a href="mailto:&#102;&#97;&#x6b;&#x65;&#64;&#x65;&#x78;&#97;&#109;&#x70;&#x6c;&#101;&#x2e;&#99;&#x6f;&#x6d;">&#102;&#97;&#x6b;&#x65;&#64;&#x65;&#x78;&#97;&#109;&#x70;&#x6c;&#101;&#x2e;&#99;&#x6f;&#x6d;</a></p>
 <h4 id="格式化链接-lt-gt"><a href="#格式化链接-lt-gt" class="headerlink" title="格式化链接 &lt;&gt;"></a>格式化链接 <code>&lt;&gt;</code></h4><figure class="highlight markdown"><table><tr><td class="code"><pre><code class="hljs markdown">I love supporting the <span class="hljs-strong">**[<span class="hljs-string">EFF</span>](<span class="hljs-link">https://eff.org</span>)**</span>.<br><br>This is the <span class="hljs-emphasis">*[<span class="hljs-string">Markdown Guide</span>](<span class="hljs-link">https://www.markdownguide.org</span>)*</span>.<br><br>See the section on [<span class="hljs-string">`code`</span>](<span class="hljs-link">#code</span>).<br></code></pre></td></tr></table></figure>
 
 <p>I love supporting the <strong><a href="https://eff.org/">EFF</a></strong>.</p>
@@ -208,8 +208,8 @@
 <h3 id="图像-Images"><a href="#图像-Images" class="headerlink" title="图像 Images"></a>图像 Images</h3><p>图像的语法与链接相似，但它们在链接开始前需要一个额外的 <code>!</code> 字符。 插入图像的语法如下所示：</p>
 <figure class="highlight markdown"><table><tr><td class="code"><pre><code class="hljs markdown">![<span class="hljs-string">Alt text</span>](<span class="hljs-link">/path/to/img.jpg</span>)<br><br>![<span class="hljs-string">Alt text</span>](<span class="hljs-link">/path/to/img.jpg &quot;Optional title&quot;</span>)<br></code></pre></td></tr></table></figure>
 
-<p><img  src="/images/pic/toc.png"  ><span class="image-caption">图片1</span></p>
-<p><img  src="/images/pic/toc.png"   title="TOC"><span class="image-caption">图片2</span></p>
+<p><img src="/images/pic/toc.png" alt="图片1"></p>
+<p><img src="/images/pic/toc.png" alt="图片2" title="TOC"></p>
 <h3 id="重点-Emphasis"><a href="#重点-Emphasis" class="headerlink" title="重点 Emphasis"></a>重点 Emphasis</h3><figure class="highlight markdown"><table><tr><td class="code"><pre><code class="hljs markdown"><span class="hljs-emphasis">*single asterisks*</span><br><br><span class="hljs-emphasis">_single underscores_</span><br></code></pre></td></tr></table></figure>
 
 <h3 id="加粗-Strong"><a href="#加粗-Strong" class="headerlink" title="加粗 Strong"></a>加粗 Strong</h3><figure class="highlight markdown"><table><tr><td class="code"><pre><code class="hljs markdown"><span class="hljs-strong">**double asterisks**</span><br><br><span class="hljs-strong">__double underscores__</span><br></code></pre></td></tr></table></figure>

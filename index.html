@@ -1,453 +1,55 @@
-
-
-<!DOCTYPE html>
-<html lang="zh-CN" color-mode=light>
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>王节</title>
-  <meta name="apple-mobile-web-app-capable" content="yes" />
-  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-  <meta name="google" content="notranslate" />
-  
-  <meta name="description" content="personal website">
-  <meta name="author" content="王节">
-  <link rel="icon" href="/images/icons/favicon-16x16.png" type="image/png" sizes="16x16">
-  <link rel="icon" href="/images/icons/favicon-32x32.png" type="image/png" sizes="32x32">
-  <link rel="apple-touch-icon" href="/images/icons/apple-touch-icon.png" sizes="180x180">
-  <meta rel="mask-icon" href="/images/icons/stun-logo.svg" color="#333333">
-  
-    <meta rel="msapplication-TileImage" content="/images/icons/favicon-144x144.png">
-    <meta rel="msapplication-TileColor" content="#000000">
-  
-
-  
-<link rel="stylesheet" href="/css/style.css">
-
-
-  
-    
-<link rel="stylesheet" href="//at.alicdn.com/t/font_1445822_p6ry5n7lrr.css">
-
-  
-
-  
-    
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css">
-
-  
-
-  
-    
-      
-        
-        
-<link rel="stylesheet" href="https://cdn.bootcss.com/highlight.js/9.18.1/styles/xcode.min.css" name="highlight-style" mode="light">
-
-      
-        
-        
-<link rel="stylesheet" href="https://cdn.bootcss.com/highlight.js/9.18.1/styles/solarized-dark.min.css" name="highlight-style" mode="dark">
-
-      
-  
-
-  <script>
-    var CONFIG = window.CONFIG || {};
-    var ZHAOO = window.ZHAOO || {};
-    CONFIG = {
-      isHome: true,
-      fancybox: true,
-      pjax: false,
-      loading: {
-        gif: '/images/theme/loading.gif',
-        lottie: ''
-      },
-      lazyload: {
-        enable: true,
-        only_post: 'false',
-        loading: {
-          gif: '/images/theme/loading.gif',
-          lottie: ''
-        }
-      },
-      donate: {
-        enable: false,
-        alipay: 'https://pic.izhaoo.com/alipay.jpg',
-        wechat: 'https://pic.izhaoo.com/wechat.jpg'
-      },
-      galleries: {
-        enable: true
-      },
-      fab: {
-        enable: true,
-        always_show: false
-      },
-      carrier: {
-        enable: true
-      },
-      daovoice: {
-        enable: false
-      },
-      preview: {
-        background: {
-          default: '',
-          api: 'https://source.unsplash.com/random/1920x1080'
-        },
-        motto: {
-          default: '我在开了灯的床头下，想问问自己的心啊。',
-          typing: true,
-          api: 'https://v2.jinrishici.com/one.json',
-          data_contents: '["data","content"]'
-        },
-      },
-      qrcode: {
-        enable: false,
-        type: 'url',
-        image: 'https://pic.izhaoo.com/weapp-code.jpg',
-      },
-      toc: {
-        enable: true
-      },
-      scrollbar: {
-        type: 'default'
-      },
-      notification: {
-        enable: false,
-        delay: 4500,
-        list: '',
-        page_white_list: '',
-        page_black_list: ''
-      },
-      search: {
-        enable: true,
-        path: '/search.xml'
-      }
-    }
-  </script>
-
-  
-
-  
-
-<meta name="generator" content="Hexo 5.4.0"></head>
-
-<body class="lock-screen">
-  <div class="loading" id="loading"></div>
-  
-    
-
-
-  <nav class="navbar">
-    <div class="left">
-      
-      
-      
-        <i class="iconfont iconmoono" id="color-toggle" color-toggle="light"></i>
-      
-      
-        <i class="iconfont iconsearch j-navbar-search"></i>
-      
-    </div>
-    <div class="center"> </div>
-    <div class="right">
-      <i class="iconfont iconmenu j-navbar-menu"></i>
-    </div>
-    
-  </nav>
-
-  
-  
-
-<nav class="menu">
-  <div class="menu-container">
-    <div class="menu-close">
-      <i class="iconfont iconbaseline-close-px"></i>
-    </div>
-    <ul class="menu-content"><li class="menu-item">
-        <a href="/ " class="underline active"> 首页</a>
-      </li><li class="menu-item">
-        <a href="/galleries/ " class="underline "> 相册</a>
-      </li><li class="menu-item">
-        <a href="/archives/ " class="underline "> 归档</a>
-      </li><li class="menu-item">
-        <a href="/tags/ " class="underline "> 标签</a>
-      </li><li class="menu-item">
-        <a href="/categories/ " class="underline "> 分类</a>
-      </li><li class="menu-item">
-        <a href="/about/ " class="underline "> 关于</a>
-      </li></ul>
-    
-      <div class="menu-copyright"><p>Power by - <a target="_blank" href="https://hexo.io">Hexo</a>  |  themes - <a target="_blank" href="https://github.com/izhaoo/hexo-theme-zhaoo">zhaoo</a> |  Author - <a target="_blank" href="https://github.com/jaywangcc126112">王节</a></p></div>
-    
-  </div>
-</nav>
-  <main id="main">
-  
-    <div class="preview">
-  <!-- <nav class="navbar j-navbar-menu">
-    <i class="iconfont iconmenu"></i>
-  </nav> -->
-  <div class="preview-image">
-    
-        
-              <div class="preview-overlay">
-                <svg class="preview-waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                  viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
-                  <defs>
-                    <path id="gentle-wave"
-                      d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
-                  </defs>
-                  <g class="preview-parallax">
-                    <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(var(--color-background-rgb),0.7"></use>
-                    <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(var(--color-background-rgb),0.5)"></use>
-                    <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(var(--color-background-rgb),0.3)"></use>
-                    <use xlink:href="#gentle-wave" x="48" y="7" fill="var(--color-background)"></use>
-                  </g>
-                </svg>
-              </div>
-              
-  </div>
-  <div class="preview-motto-wrapper">
-    <h2 class="preview-motto" id="motto">
-      
-    </h2>
-    
-      <span class="preview-cursor">_</span>
-      
-  </div>
-  <div class="preview-scroll">
-    <a href="#container" class="smooth-scroll"><i class="iconfont iconMouse"></i></a>
-  </div>
-</div>
-  
-  <div class="container" id="container">
-    <section class="row post">
-  
-    
-
-<div class="col-lg-4 col-md-6 col-sm-12 post-item">
-  <div class="post-wrap">
-    
-      <div class="post-top"><div>置顶</div></div>
-    
-    <a href="/2021/11/08/%E5%BC%80%E7%AF%87/" class="post-image">
-      <img   class="lazyload" data-original="/images/pic/about_write.jpg" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="  draggable="false">
-    </a>
-    <div class="post-content">
-      <div class="post-content-wrap">
-        <h3 class="post-title"><a href="/2021/11/08/%E5%BC%80%E7%AF%87/" title="开篇" >开篇</a></h3>
-        <div class="post-excerpt">
-          <p class="substr-3">
-在相当长的一段时间里，我都举双手同意，写作是一件相当有门槛的事情，即便是在后来尝试写了好多东西之后。
-
-似乎随着年龄的变化，人对事物的感知能力会越来越差，与其说是无趣，不如说是知道了自己能够做...</p>
-        </div>
-      </div>
-      <div class="post-info">
-        <span class="post-info-item"><i class="iconfont iconcalendar"></i>十一月 08, 2021</span>
-        
-      </div>
-    </div>
-  </div>
-</div>
-
-  
-    
-
-<div class="col-lg-4 col-md-6 col-sm-12 post-item">
-  <div class="post-wrap">
-    
-    <a href="/2021/11/12/%E5%85%B3%E4%BA%8E%E9%98%B2%E7%81%AB%E5%A2%99-GFW%E7%9A%84%E9%82%A3%E4%BA%9B%E4%BA%8B2/" class="post-image">
-      <img   class="lazyload" data-original="/images/pic/GFW.jpg" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="  draggable="false">
-    </a>
-    <div class="post-content">
-      <div class="post-content-wrap">
-        <h3 class="post-title"><a href="/2021/11/12/%E5%85%B3%E4%BA%8E%E9%98%B2%E7%81%AB%E5%A2%99-GFW%E7%9A%84%E9%82%A3%E4%BA%9B%E4%BA%8B2/" title="关于防火墙/GFW的那些事2" >关于防火墙/GFW的那些事2</a></h3>
-        <div class="post-excerpt">
-          <p class="substr-3">没有GFW时的网络通讯没有GFW的网络通讯
-有GFW时的网络通讯有GFW的网络通讯
-两种翻墙原理VPN代理原理
-SS、SSR加密原理
-备注: SS就是ShadowSocks,SSR就是Shado...</p>
-        </div>
-      </div>
-      <div class="post-info">
-        <span class="post-info-item"><i class="iconfont iconcalendar"></i>十一月 12, 2021</span>
-        
-      </div>
-    </div>
-  </div>
-</div>
-
-  
-    
-
-<div class="col-lg-4 col-md-6 col-sm-12 post-item">
-  <div class="post-wrap">
-    
-    <a href="/2021/11/12/%E5%85%B3%E4%BA%8E%E9%98%B2%E7%81%AB%E5%A2%99-GFW%E7%9A%84%E9%82%A3%E4%BA%9B%E4%BA%8B1/" class="post-image">
-      <img   class="lazyload" data-original="/images/pic/GFW.jpg" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="  draggable="false">
-    </a>
-    <div class="post-content">
-      <div class="post-content-wrap">
-        <h3 class="post-title"><a href="/2021/11/12/%E5%85%B3%E4%BA%8E%E9%98%B2%E7%81%AB%E5%A2%99-GFW%E7%9A%84%E9%82%A3%E4%BA%9B%E4%BA%8B1/" title="关于防火墙/GFW的那些事1" >关于防火墙/GFW的那些事1</a></h3>
-        <div class="post-excerpt">
-          <p class="substr-3">什么是GFW？
-GFW全称是Great Fire Wall,翻译过来就是防“火”长城,顾名思义，是用来防“火”的，只不过防的不是实际意义上的“火”,而是自由,是民主,是不同的观点,或者更直接的说...</p>
-        </div>
-      </div>
-      <div class="post-info">
-        <span class="post-info-item"><i class="iconfont iconcalendar"></i>十一月 12, 2021</span>
-        
-      </div>
-    </div>
-  </div>
-</div>
-
-  
-    
-
-<div class="col-lg-4 col-md-6 col-sm-12 post-item">
-  <div class="post-wrap">
-    
-    <a href="/2021/11/08/Markdown%E7%AC%94%E8%AE%B0/" class="post-image">
-      <img   class="lazyload" data-original="/images/pic/markdown-guide-og.jpg" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="  draggable="false">
-    </a>
-    <div class="post-content">
-      <div class="post-content-wrap">
-        <h3 class="post-title"><a href="/2021/11/08/Markdown%E7%AC%94%E8%AE%B0/" title="Markdown笔记" >Markdown笔记</a></h3>
-        <div class="post-excerpt">
-          <p class="substr-3">写在前面的话在过去的大多数时候，无论在工作中或者生活中，我总是想着是要记录一下在上述的两种场景中遇到的麻烦以及解决这些麻烦的方法，但苦于没有趁手的记录工具，导致要么想法搁浅，要么就是记录过于分散...</p>
-        </div>
-      </div>
-      <div class="post-info">
-        <span class="post-info-item"><i class="iconfont iconcalendar"></i>十一月 08, 2021</span>
-        
-      </div>
-    </div>
-  </div>
-</div>
-
-  
-</section>
-    <section class="paginator">
-  
-</section>
-  </div>
-</main>
-  
-
-<footer class="footer">
-  <div class="footer-social"><a 
-        href="https://github.com/jaywangcc126112 "
-        target="_blank"
-        class="footer-social-item"
-        onMouseOver="this.style.color= '#9f7be1'" 
-        onMouseOut="this.style.color='#33333D'">
-          <i class="iconfont  icongithub-fill "></i>
-      </a><a 
-        href="mailto:1514803091@qq.com "
-        target="_blank"
-        class="footer-social-item"
-        onMouseOver="this.style.color=#FF3B00" 
-        onMouseOut="this.style.color='#33333D'">
-          <i class="iconfont  iconmail"></i>
-      </a></div>
-  
-    <div class="footer-copyright"><p>Power by - <a target="_blank" href="https://hexo.io">Hexo</a>  |  themes - <a target="_blank" href="https://github.com/izhaoo/hexo-theme-zhaoo">zhaoo</a> |  Author - <a target="_blank" href="https://github.com/jaywangcc126112">王节</a></p></div>
-  
-</footer>
-  
-      <div class="fab fab-plus">
-    <i class="iconfont iconplus"></i>
-  </div>
-  
-  
-  
-  <div class="fab fab-up">
-    <i class="iconfont iconcaret-up"></i>
-  </div>
-  
-  
-  
-    
-<script src="/js/color-mode.js"></script>
-
-  
-  
-    <div class="search">
-  <div class="search-container">
-    <div class="search-close">
-      <i class="iconfont iconbaseline-close-px"></i>
-    </div>
-    <div class="search-input-wrapper">
-      <i class="search-input-icon iconfont iconsearch"></i>
-      <input class="search-input" type="search" id="search-input" placeholder="Search..." autofocus autocomplete="off"
-        autocorrect="off" autocapitalize="off">
-    </div>
-    <div class="search-output" id="search-output"></div>
-  </div>
-</div>
-  
-</body>
-
-<script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
-
-
-
-
-
-  
-<script src="https://cdn.bootcdn.net/ajax/libs/jquery.lazyload/1.9.1/jquery.lazyload.min.js"></script>
-
-
-
-
-  
-<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
-
-
-
-
-
-
-
-
-<script src="/js/utils.js"></script>
-<script src="/js/script.js"></script>
-
-
-
-
-
-
-
-  <script>
-    (function () {
-      var bp = document.createElement('script');
-      var curProtocol = window.location.protocol.split(':')[0];
-      if (curProtocol === 'https') {
-        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
-      } else {
-        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
-      }
-      var s = document.getElementsByTagName("script")[0];
-      s.parentNode.insertBefore(bp, s);
-    })();
-  </script>
-
-
-
-
-
-
-
-
-
-
-
-
-
-</html>
+extends base
+
+block title
+  if config.subtitle
+    title= config.title + ' | ' + config.subtitle
+  else
+    title= config.title
+
+block content
+  for post in page.posts.toArray()
+    .post
+      h1.post-title
+        include _partial/helpers.pug
+        a(href=url_for(post.path))
+          +title(post)
+      .post-meta= post.date.format(config.date_format)
+      if theme.disqus.enable == true
+        a.disqus-comment-count(data-disqus-identifier=post.path, href=url_for(post.path) + '#disqus_thread')
+      if theme.changyan
+        a.ds-thread-count(href=url_for(post.path) + '#SOHUCS')
+          span.cy_cmt_count(id='sourceId::' + post.date.valueOf() style='margin: 0 3px 0 1px;') 0
+          span= ' ' + __('Comment')
+      if post.description
+        .post-content
+          != post.description
+      else if post.excerpt
+        .post-content
+          != post.excerpt
+      else if post.content
+        - var br = 0
+        - for (var i = 0; i < 5; ++i) {
+          - br = post.content.indexOf('\n',br+1)
+          if br<0
+            - break
+          if br >150
+            - break
+        - }
+        if br < 0
+          .post-content
+            != post.content
+        else
+          .post-content
+            != post.content.substring(0, br)
+      p(class='readmore')
+        a(href=url_for(post.path))= __('Readmore')
+
+  include _partial/paginator.pug
+  if theme.disqus.enable == true
+    script(id='dsq-count-scr', src='//'+ theme.disqus.shortname + '.disqus.com/count.js', async)
+  if theme.changyan
+    script#cy_cmt_num(src='https://changyan.sohu.com/upload/plugins/plugins.list.count.js?clientId=' + theme.changyan, async)
+  if config.mathjax
+    include _partial/mathjax.pug
+  if config.mathjax2
+    include _partial/mathjax2.pug

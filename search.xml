@@ -142,7 +142,7 @@
 <h4 id="快速生成url和email链接-lt-gt"><a href="#快速生成url和email链接-lt-gt" class="headerlink" title="快速生成url和email链接 &lt;&gt;"></a>快速生成url和email链接 <code>&lt;&gt;</code></h4><figure class="highlight markdown"><table><tr><td class="code"><pre><code class="hljs markdown"><span class="xml">&lt;https://www.markdownguide.org&gt;</span><br><br><span class="xml">&lt;fake@example.com&gt;</span><br></code></pre></td></tr></table></figure>
 
 <p><a href="https://www.markdownguide.org/">https://www.markdownguide.org</a></p>
-<p><a href="mailto:&#102;&#97;&#107;&#x65;&#x40;&#x65;&#120;&#97;&#109;&#x70;&#x6c;&#x65;&#46;&#x63;&#111;&#109;">&#102;&#97;&#107;&#x65;&#x40;&#x65;&#120;&#97;&#109;&#x70;&#x6c;&#x65;&#46;&#x63;&#111;&#109;</a></p>
+<p><a href="mailto:&#x66;&#97;&#x6b;&#x65;&#x40;&#101;&#x78;&#x61;&#109;&#x70;&#x6c;&#101;&#46;&#99;&#x6f;&#109;">&#x66;&#97;&#x6b;&#x65;&#x40;&#101;&#x78;&#x61;&#109;&#x70;&#x6c;&#101;&#46;&#99;&#x6f;&#109;</a></p>
 <h4 id="格式化链接-lt-gt"><a href="#格式化链接-lt-gt" class="headerlink" title="格式化链接 &lt;&gt;"></a>格式化链接 <code>&lt;&gt;</code></h4><figure class="highlight markdown"><table><tr><td class="code"><pre><code class="hljs markdown">I love supporting the <span class="hljs-strong">**[<span class="hljs-string">EFF</span>](<span class="hljs-link">https://eff.org</span>)**</span>.<br><br>This is the <span class="hljs-emphasis">*[<span class="hljs-string">Markdown Guide</span>](<span class="hljs-link">https://www.markdownguide.org</span>)*</span>.<br><br>See the section on [<span class="hljs-string">`code`</span>](<span class="hljs-link">#code</span>).<br></code></pre></td></tr></table></figure>
 
 <p>I love supporting the <strong><a href="https://eff.org/">EFF</a></strong>.</p>

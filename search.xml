@@ -1,22 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>关于防火墙/GFW的那些事2</title>
-    <url>/2021/11/12/%E5%85%B3%E4%BA%8E%E9%98%B2%E7%81%AB%E5%A2%99-GFW%E7%9A%84%E9%82%A3%E4%BA%9B%E4%BA%8B2/</url>
-    <content><![CDATA[<h2 id="没有GFW时的网络通讯"><a href="#没有GFW时的网络通讯" class="headerlink" title="没有GFW时的网络通讯"></a>没有GFW时的网络通讯</h2><p><img src="/images/pic/%E6%B2%A1%E6%9C%89GFW%E7%9A%84%E7%BD%91%E7%BB%9C%E9%80%9A%E8%AE%AF.png" alt="没有GFW的网络通讯" title="没有GFW的网络通讯"></p>
-<h2 id="有GFW时的网络通讯"><a href="#有GFW时的网络通讯" class="headerlink" title="有GFW时的网络通讯"></a>有GFW时的网络通讯</h2><p><img src="/images/pic/%E6%9C%89GFW.png" alt="有GFW的网络通讯" title="有GFW的网络通讯"></p>
-<h2 id="两种翻墙原理"><a href="#两种翻墙原理" class="headerlink" title="两种翻墙原理"></a>两种翻墙原理</h2><p><img src="/images/pic/VPN-Http%E4%BB%A3%E7%90%86%E6%A8%A1%E5%BC%8F.png" alt="VPN代理原理" title="VPN代理原理"></p>
-<p><img src="/images/pic/shadowsocks-ssr-v2ray.png" alt="SS、SSR加密原理" title="SS、SSR加密原理"></p>
-<p><strong><code>备注: SS就是ShadowSocks,SSR就是ShadowSocksR</code></strong></p>
-]]></content>
-      <categories>
-        <category>工具</category>
-      </categories>
-      <tags>
-        <tag>翻墙,科学上网</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Markdown笔记</title>
     <url>/2021/11/08/Markdown%E7%AC%94%E8%AE%B0/</url>
     <content><![CDATA[<h2 id="写在前面的话"><a href="#写在前面的话" class="headerlink" title="写在前面的话"></a>写在前面的话</h2><p>在过去的大多数时候，无论在工作中或者生活中，我总是想着是要记录一下在上述的两种场景中遇到的麻烦以及解决这些麻烦的方法，但苦于没有趁手的记录工具，导致要么想法搁浅，要么就是记录过于分散没有办法集中管理，实在是让人头疼不已。</p>
@@ -158,7 +142,7 @@
 <h4 id="快速生成url和email链接-lt-gt"><a href="#快速生成url和email链接-lt-gt" class="headerlink" title="快速生成url和email链接 &lt;&gt;"></a>快速生成url和email链接 <code>&lt;&gt;</code></h4><figure class="highlight markdown"><table><tr><td class="code"><pre><code class="hljs markdown"><span class="xml">&lt;https://www.markdownguide.org&gt;</span><br><br><span class="xml">&lt;fake@example.com&gt;</span><br></code></pre></td></tr></table></figure>
 
 <p><a href="https://www.markdownguide.org/">https://www.markdownguide.org</a></p>
-<p><a href="mailto:&#x66;&#97;&#107;&#101;&#x40;&#101;&#120;&#x61;&#x6d;&#x70;&#x6c;&#x65;&#46;&#99;&#111;&#109;">&#x66;&#97;&#107;&#101;&#x40;&#101;&#120;&#x61;&#x6d;&#x70;&#x6c;&#x65;&#46;&#99;&#111;&#109;</a></p>
+<p><a href="mailto:&#x66;&#x61;&#x6b;&#x65;&#x40;&#x65;&#x78;&#x61;&#x6d;&#x70;&#108;&#x65;&#x2e;&#99;&#x6f;&#109;">&#x66;&#x61;&#x6b;&#x65;&#x40;&#x65;&#x78;&#x61;&#x6d;&#x70;&#108;&#x65;&#x2e;&#99;&#x6f;&#109;</a></p>
 <h4 id="格式化链接-lt-gt"><a href="#格式化链接-lt-gt" class="headerlink" title="格式化链接 &lt;&gt;"></a>格式化链接 <code>&lt;&gt;</code></h4><figure class="highlight markdown"><table><tr><td class="code"><pre><code class="hljs markdown">I love supporting the <span class="hljs-strong">**[<span class="hljs-string">EFF</span>](<span class="hljs-link">https://eff.org</span>)**</span>.<br><br>This is the <span class="hljs-emphasis">*[<span class="hljs-string">Markdown Guide</span>](<span class="hljs-link">https://www.markdownguide.org</span>)*</span>.<br><br>See the section on [<span class="hljs-string">`code`</span>](<span class="hljs-link">#code</span>).<br></code></pre></td></tr></table></figure>
 
 <p>I love supporting the <strong><a href="https://eff.org/">EFF</a></strong>.</p>
@@ -208,6 +192,22 @@
 <p>这里多说一句，很有可能全面实现共产主义只是一张大饼，我们永远只能处在社会主义初级阶段，或者这么说吧，就算是真的到实现了最终的共产主义，那也跟当年马克思列宁同志的构想大相径庭。</p>
 <h2 id="内地的网络审查和GFW的作用"><a href="#内地的网络审查和GFW的作用" class="headerlink" title="内地的网络审查和GFW的作用"></a>内地的网络审查和GFW的作用</h2><p>2008年以前，是没有墙这一说法的，后来因为一些政治原因，内地开始部署GFW和健全网络审查相关政策,这两者还是有区别的，前者主要是用来分析和过滤境外咨询以及限制境内和境外的互相访问。而后者则是对所有的网络咨询进行审查包括国内的网站自查。</p>
 <h2 id="为啥中国加入WTO后老是会外媒被批评？"><a href="#为啥中国加入WTO后老是会外媒被批评？" class="headerlink" title="为啥中国加入WTO后老是会外媒被批评？"></a>为啥中国加入WTO后老是会外媒被批评？</h2><p>其实，这是也是没办法，WTO要求中国公开公平，尊重规则，但是出于国家安全和利益的考量，至今中国都对一些关键行业都是垄断的，比如银行，石油，电影。对这些行业的垄断其实就是违反了WTO的公平公正贸易的原则的，其实中国这么干挺不地道的。这也是为啥人家老指责中国存在不公平贸易的原因，因为人家说的没错啊。</p>
+]]></content>
+      <categories>
+        <category>工具</category>
+      </categories>
+      <tags>
+        <tag>翻墙,科学上网</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>关于防火墙/GFW的那些事2</title>
+    <url>/2021/11/12/%E5%85%B3%E4%BA%8E%E9%98%B2%E7%81%AB%E5%A2%99-GFW%E7%9A%84%E9%82%A3%E4%BA%9B%E4%BA%8B2/</url>
+    <content><![CDATA[<h3 id="没有GFW时的网络通讯"><a href="#没有GFW时的网络通讯" class="headerlink" title="没有GFW时的网络通讯"></a>没有GFW时的网络通讯</h3><p><img src="/images/pic/%E6%B2%A1%E6%9C%89GFW%E7%9A%84%E7%BD%91%E7%BB%9C%E9%80%9A%E8%AE%AF.png" alt="没有GFW的网络通讯" title="没有GFW的网络通讯"></p>
+<h3 id="有GFW时的网络通讯"><a href="#有GFW时的网络通讯" class="headerlink" title="有GFW时的网络通讯"></a>有GFW时的网络通讯</h3><p><img src="/images/pic/%E6%9C%89GFW.png" alt="有GFW的网络通讯" title="有GFW的网络通讯"></p>
+<h3 id="两种翻墙原理"><a href="#两种翻墙原理" class="headerlink" title="两种翻墙原理"></a>两种翻墙原理</h3><p><img src="/images/pic/VPN-Http%E4%BB%A3%E7%90%86%E6%A8%A1%E5%BC%8F.png" alt="VPN代理原理" title="VPN代理原理"></p>
+<p><img src="/images/pic/shadowsocks-ssr-v2ray.png" alt="SS、SSR加密原理" title="SS、SSR加密原理"></p>
+<p><strong><code>备注: SS就是ShadowSocks,SSR就是ShadowSocksR</code></strong></p>
 ]]></content>
       <categories>
         <category>工具</category>

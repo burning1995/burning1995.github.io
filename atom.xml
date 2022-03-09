@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>春去秋来</title>
+  
+  <subtitle>jaywangcc126112</subtitle>
+  <link href="http://example.com/atom.xml" rel="self"/>
+  
+  <link href="http://example.com/"/>
+  <updated>2022-03-09T01:09:01.322Z</updated>
+  <id>http://example.com/</id>
+  
+  <author>
+    <name>jaywangcc126112</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>开篇</title>
+    <link href="http://example.com/2021/11/08/%E5%BC%80%E7%AF%87/"/>
+    <id>http://example.com/2021/11/08/%E5%BC%80%E7%AF%87/</id>
+    <published>2021-11-08T04:52:23.000Z</published>
+    <updated>2022-03-09T01:09:01.322Z</updated>
+    
+    <content type="html"><![CDATA[<p>似乎随着年龄的变化，人对事物的感知能力会越来越差，与其说是无趣，不如说是知道了自己能够做和做得好的事情越来越少了，不知道这样是好事还是坏事。<br>奇怪的是，唯独对时间的感知能力却在不断增强，越来越知道什么叫做虚度光阴，什么叫做蹉跎岁月。有时候自己又挺庆幸的，虽有生活很艰难，但是总能梳理出一些头绪，然后输出一篇文章，既不伤害他人，又没有什么成本。</p><p>写作是一件相当有门槛的事情，但是当你开始写的时候，也就没什么大不了的了，汹涌的表达欲望和激荡的思绪让人置身其中，完全忘记还特么有门槛这回事。</p><p>持续的，坚挺的表达欲望无疑是写作最原始的动力之一，即便用的不是自己的文字，只要准确地表达了自己的想法，那也会成为你坚持写下去的的奖励。</p><blockquote><p>在相当长的一段时间里，我都举双手同意，写作是一件相当有门槛的事情，即便是在后来尝试写了好多东西之后。</p></blockquote>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;似乎随着年龄的变化，人对事物的感知能力会越来越差，与其说是无趣，不如说是知道了自己能够做和做得好的事情越来越少了，不知道这样是好事还是坏事。&lt;br&gt;奇怪的是，唯独对时间的感知能力却在不断增强，越来越知道什么叫做虚度光阴，什么叫做蹉跎岁月。有时候自己又挺庆幸的，虽有生活很艰难</summary>
+      
+    
+    
+    
+    <category term="生活感悟" scheme="http://example.com/categories/%E7%94%9F%E6%B4%BB%E6%84%9F%E6%82%9F/"/>
+    
+    
+    <category term="关于写作" scheme="http://example.com/tags/%E5%85%B3%E4%BA%8E%E5%86%99%E4%BD%9C/"/>
+    
+  </entry>
+  
+</feed>

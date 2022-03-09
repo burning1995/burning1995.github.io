@@ -1,5 +1,4 @@
 (function($){
-
   // article-share
   $('body').on('click', function(){
     $('.article-share-box.on').removeClass('on');

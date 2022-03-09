@@ -1,4 +1,29 @@
 (function($){
+
+  // // 1.获取access_token
+  // var access_token='';
+  // $.ajax({
+  //   url: "https://api.weixin.qq.com/cgi-bin/token",
+  //   data: { grant_type: "client_credential", appid: "wxb4f53c1ded0dd203", secret:"e136a3f768547d9cc1d00f9706e719ea"},
+  //   success: function(data){
+  //     alert("access_token: " + data.access_token);
+  //     access_token=data.access_token;
+  //   },
+  //   dataType: "json"
+  // });
+
+  // // 2.用第一步拿到的access_token 获得jsapi_ticket
+  // var jsapi_ticket='';
+  // $.ajax({
+  //   url: "https://api.weixin.qq.com/cgi-bin/ticket/getticket",
+  //   data: { access_token: access_token,type:"jsapi"},
+  //   success: function(data){
+  //     alert("jsapi_ticket: " + data.jsapi_ticket);
+  //     jsapi_ticket=data.jsapi_ticket;
+  //   },
+  //   dataType: "json"
+  // });
+
   // article-share
   $('body').on('click', function(){
     $('.article-share-box.on').removeClass('on');
@@ -55,5 +80,6 @@
 
     window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
   });
+
 
 })(jQuery);

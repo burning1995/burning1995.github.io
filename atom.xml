@@ -3,11 +3,11 @@
   <title>春去秋来</title>
   
   <subtitle>jaywangcc126112</subtitle>
-  <link href="http://example.com/atom.xml" rel="self"/>
+  <link href="https://jaywangcc126112.github.io/atom.xml" rel="self"/>
   
-  <link href="http://example.com/"/>
+  <link href="https://jaywangcc126112.github.io/"/>
   <updated>2022-03-09T01:09:01.322Z</updated>
-  <id>http://example.com/</id>
+  <id>https://jaywangcc126112.github.io/</id>
   
   <author>
     <name>jaywangcc126112</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>开篇</title>
-    <link href="http://example.com/2021/11/08/%E5%BC%80%E7%AF%87/"/>
-    <id>http://example.com/2021/11/08/%E5%BC%80%E7%AF%87/</id>
+    <link href="https://jaywangcc126112.github.io/2021/11/08/%E5%BC%80%E7%AF%87/"/>
+    <id>https://jaywangcc126112.github.io/2021/11/08/%E5%BC%80%E7%AF%87/</id>
     <published>2021-11-08T04:52:23.000Z</published>
     <updated>2022-03-09T01:09:01.322Z</updated>
     
@@ -33,10 +33,10 @@
     
     
     
-    <category term="生活感悟" scheme="http://example.com/categories/%E7%94%9F%E6%B4%BB%E6%84%9F%E6%82%9F/"/>
+    <category term="生活感悟" scheme="https://jaywangcc126112.github.io/categories/%E7%94%9F%E6%B4%BB%E6%84%9F%E6%82%9F/"/>
     
     
-    <category term="关于写作" scheme="http://example.com/tags/%E5%85%B3%E4%BA%8E%E5%86%99%E4%BD%9C/"/>
+    <category term="关于写作" scheme="https://jaywangcc126112.github.io/tags/%E5%85%B3%E4%BA%8E%E5%86%99%E4%BD%9C/"/>
     
   </entry>
   

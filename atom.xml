@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>春去秋来</title>
+  <title>花开富贵</title>
   
-  <subtitle>jaywangcc126112</subtitle>
-  <link href="https://jaywangcc126112.github.io/atom.xml" rel="self"/>
+  <subtitle>burning1995</subtitle>
+  <link href="https://burning1995.github.io/atom.xml" rel="self"/>
   
-  <link href="https://jaywangcc126112.github.io/"/>
+  <link href="https://burning1995.github.io/"/>
   <updated>2022-03-09T06:26:44.223Z</updated>
-  <id>https://jaywangcc126112.github.io/</id>
+  <id>https://burning1995.github.io/</id>
   
   <author>
-    <name>jaywangcc126112</name>
+    <name>burning1995</name>
     
   </author>
   
@@ -18,8 +18,8 @@
   
   <entry>
     <title>开篇</title>
-    <link href="https://jaywangcc126112.github.io/2021/11/08/%E5%BC%80%E7%AF%87/"/>
-    <id>https://jaywangcc126112.github.io/2021/11/08/%E5%BC%80%E7%AF%87/</id>
+    <link href="https://burning1995.github.io/2021/11/08/%E5%BC%80%E7%AF%87/"/>
+    <id>https://burning1995.github.io/2021/11/08/%E5%BC%80%E7%AF%87/</id>
     <published>2021-11-08T04:52:23.000Z</published>
     <updated>2022-03-09T06:26:44.223Z</updated>
     
@@ -30,10 +30,10 @@
     
     
     
-    <category term="emotion" scheme="https://jaywangcc126112.github.io/categories/emotion/"/>
+    <category term="emotion" scheme="https://burning1995.github.io/categories/emotion/"/>
     
     
-    <category term="关于写作" scheme="https://jaywangcc126112.github.io/tags/%E5%85%B3%E4%BA%8E%E5%86%99%E4%BD%9C/"/>
+    <category term="关于写作" scheme="https://burning1995.github.io/tags/%E5%85%B3%E4%BA%8E%E5%86%99%E4%BD%9C/"/>
     
   </entry>
   
